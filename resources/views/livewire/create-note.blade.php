@@ -8,7 +8,7 @@
                 <flux:text class="mt-2">Make Notes to your personal details.</flux:text>
             </div>
 
-            <flux:input label="Title" placeholder="Enter Note tile" wire:model='title'/>
+            <flux:input label="Title" placeholder="Enter Note title" wire:model='title'/>
             <flux:textarea label="Content" placeholder="Enter Note Content" wire:model='content'/>
 
             

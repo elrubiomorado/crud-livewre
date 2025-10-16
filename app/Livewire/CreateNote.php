@@ -14,7 +14,7 @@ class CreateNote extends Component
     //validaciones de campos
     protected function rules(){
         return [
-            "title"=> "required|string|unique:notes,title|max:255",
+            "title" => ["required", "string", "unique:notes,title", "max:255"],
             "content"=> "required|string"
         ];
     }
